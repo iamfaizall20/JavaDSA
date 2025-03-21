@@ -1,7 +1,3 @@
-Here's an enhanced version of your DSA journey repository description with better structure, clarity, and motivation:  
-
----
-
 # 🚀 DSA Journey  
 
 Welcome to my **Data Structures and Algorithms (DSA)** learning journey! This repository is a log of my progress as I explore fundamental DSA concepts, implement algorithms, and solve coding challenges.  
@@ -34,7 +30,3 @@ This repository includes:
 - **Stay updated**: Follow my journey as I progress through different topics and refine my understanding.  
 
 🚀 **Let's master DSA together—one problem at a time!** 💡  
-
----
-
-This version adds clarity, excitement, and engagement while keeping it beginner-friendly. Let me know if you’d like further improvements! 🚀
