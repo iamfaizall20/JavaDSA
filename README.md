@@ -2,7 +2,7 @@
 
 Welcome to my **Data Structures and Algorithms (DSA)** learning journey! This repository is a log of my progress as I explore fundamental DSA concepts, implement algorithms, and solve coding challenges.  
 
-## 📌 What You'll Find Here  
+📌 What You'll Find Here  
 This repository includes:  
 ✅ Well-structured explanations of DSA concepts.  
 ✅ Implementations of various algorithms with clean, optimized code.  
