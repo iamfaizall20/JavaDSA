@@ -10,7 +10,7 @@ This repository includes:
 ✅ Continuous improvements and refinements as I learn more.  
 
 ## 🔍 Topics I'm Covering  
-- **Arrays** 🌀  
+- **Arrays**
 - **Linked Lists** 🔗  
 - **Stacks & Queues** 📚  
 - **Trees & Graphs** 🌳🔍  
