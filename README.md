@@ -17,7 +17,7 @@ This repository includes:
 - **Trees & Graphs** 🌳🔍  
 - **Sorting Algorithms** 📊  
 - **Searching Algorithms** 🔎  
-- **Recursion & Dynamic Programming** 🔄  
+- **Recursion & Dynamic Programming 
 
 ## 🎯 Why I'm Doing This  
 - To **strengthen my problem-solving skills** and build a solid foundation in DSA.  
