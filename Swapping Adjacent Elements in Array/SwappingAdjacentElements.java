@@ -1,3 +1,9 @@
+/** 
+ Solved a Problem "Swapping Alternative Adjacent Elements of Array"
+ means elements on indexes 0,1 will be swapped then elements on 
+ indexes 2,3 will be swapped.
+*/
+
 public class SwappingAdjacentElements {
 
     //Printing Array
