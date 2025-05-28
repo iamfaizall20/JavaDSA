@@ -1,3 +1,10 @@
+/**
+ Implemented Binary Search Tree Using
+- Iterative Insert Method
+- Recursive Searching Method
+- Recursive Inorder Traversal
+**/
+
 class Node{
     int data;
     Node right;
