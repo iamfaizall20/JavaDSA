@@ -14,6 +14,6 @@ public class Main {
 
         boolean isSorted = isArraySorted(arr);
 
-        System.out.println( (isSorted) ? "Array is Sorted" : "Array isn't Sorted");
+        System.out.print( (isSorted) ? "Array is Sorted" : "Array isn't Sorted");
     }
 }
