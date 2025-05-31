@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 class StackDSA {
     static int[] stackArray;
     static int top = -1;
@@ -7,39 +5,15 @@ class StackDSA {
     public StackDSA(int stackSize) {
         stackArray = new int[stackSize];
     }
-
-    public void pushIntoStack(int value){
-        if(top < stackArray.length - 1){
-            top++;
-            stackArray[top] = value;
-        }else{
-            System.out.println("Stack Overflow");
-        }
-    }
-    public void pushIfGreaterThanTop(int value){
-        if(value > stackArray[top]){
+    //Pushes Only if Value is Even
+    public void pushIfEven(int value){
+        if(value % 2 == 0){
             if(top < stackArray.length - 1){
                 top++;
                 stackArray[top] = value;
             }else{
                 System.out.println("Stack Overflow");
             }
-        }
-    }
-    public int popFromStack(){
-        if(top == -1){
-            System.out.println("Stack Underflow");
-            return -1;
-        }
-
-        int TopValue = stackArray[top];
-        top--;
-        return TopValue;
-    }
-    public void peek2OfStack(){
-        if(top != -1){
-            int PeekValue = stackArray[top - 1];
-            System.out.printf("Peek Value - %d",PeekValue);
         }
     }
     public void displayStack(){
@@ -51,54 +25,18 @@ class StackDSA {
             }
         }
     }
-    public void pushIfEven(int value){
-        if(value % 2 == 0){
-            if(top < stackArray.length - 1){
-                top++;
-                stackArray[top] = value;
-            }else{
-                System.out.println("Stack Overflow");
-            }
-        }
-    }
-    public int frequencyOfElement(int element){
-        int count = 0;
-        if(top == -1){
-            System.out.println("Stack UnderFlow");
-        }else{
-            for(int i=0;i<stackArray.length;i++){
-                if(stackArray[i] == element){
-                    count++;
-                }
-            }
-        }
-        return count;
-    }
 }
 public class stack {
     public static void main(String[] args) {
-        Scanner getInput = new Scanner(System.in);
+    StackDSA s = new StackDSA(5); //Passed Stack Size in Constructor
 
-//        System.out.println("Enter size of Stack ");
-//        int stackSize = getInput.nextInt();
+    s.pushIfEven(10);
+    s.pushIfEven(12);
+    s.pushIfEven(15); //15 will not be pushed into stack
+    s.pushIfEven(14);
+    s.pushIfEven(16);
 
-        StackDSA s = new StackDSA(5);
-
-        s.pushIntoStack(8);
-        s.pushIntoStack(10);
-        s.pushIntoStack(8);
-        s.pushIntoStack(7);
-        s.pushIntoStack(8);
-
-        s.peek2OfStack();
-//        int PoppedValue = s.popFromStack();
-//
-//        while (PoppedValue % 2 != 0){
-//            System.out.println(PoppedValue);
-//            PoppedValue = s.popFromStack();
-//        }
-//
-//        System.out.print("Frequency of element: ");
-//        System.out.println(s.frequencyOfElement(6));
+    s.displayStack();
+    
     }
 }
